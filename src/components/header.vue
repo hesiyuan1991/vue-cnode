@@ -12,9 +12,11 @@
       <el-col :span="8" :offset="6">
         <el-row class="link">
           <el-col :span="4">
-            <router-link class="goDetail" :to="'/'" >首页</router-link>
+            <router-link  :to="'/'" >首页</router-link>
           </el-col>
-          <el-col :span="4"><a href="#">新手入门</a></el-col>
+          <el-col :span="4">
+            <router-link  :to="'/new'" >新建话题</router-link>
+          </el-col>
           <el-col :span="4"><a href="#">API</a></el-col>
           <el-col :span="4"><a href="#">关于</a></el-col>
           <el-col :span="4"><a href="#">注册</a></el-col>
