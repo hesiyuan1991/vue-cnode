@@ -2,15 +2,15 @@
   <div>
     <myHeader></myHeader>
     <el-main class="content">
-      <el-form ref="form" :model="form" label-width="80px" id="form">
-        <el-form-item label="活动名称">
+      <el-form ref="form" :model="form" label-width="80px">
+        <el-form-item label="主题名称">
           <el-input v-model="form.title"></el-input>
         </el-form-item>
-        <el-form-item label="活动形式">
+        <el-form-item label="主题内容">
           <el-input type="textarea" v-model="form.content"></el-input>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" @click="submitForm">立即创建</el-button>
+          <el-button type="primary" @click="submitForm">提交</el-button>
         </el-form-item>
       </el-form>
     </el-main>
