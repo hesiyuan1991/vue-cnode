@@ -1,0 +1,45 @@
+
+body {
+  margin: 0;
+  font-family: "微软雅黑", Microsoft YaHei, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+img {
+  border: none;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li, ol, address, figure, figcaption, nav, menu {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+em, i {
+  font-style: normal;
+}
+
+//*::-webkit-scrollbar{
+//  display: none;
+//}
